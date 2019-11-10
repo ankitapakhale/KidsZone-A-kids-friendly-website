@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="javascript/quiz.js" type="text/javascript">
+  </script>
+
+  <link rel="stylesheet" href="css/quizstyle.css">
+</head>
+
+<body>
+  <section>
+
+
+  <center>
+    <h1>Maths Quiz Game 😉</h1>
+    <form name=quizform>
+      <div class="centerdiv">
+
+
+        <div class="top_container">
+          <input class="operations" type=button value="Add" onClick="add()">
+          <input class="operations" type=button value="Subtract" onClick="subtract()">
+          <input class="operations" type=button value="Multiply" onClick="multiply()">
+          <input class="operations" type=button value="Divide" onClick="divide()">
+        </div>
+
+        <br>
+        <br>
+        <div class="middle_container">
+          <input class="options" type="radio" name="arithmetic">Easy
+          <input class="options" type="radio" name="arithmetic" checked>Moderate
+          <input class="options" type="radio" name="arithmetic">Difficult
+        </div>
+
+        <br>
+        <br>
+        <div class="bottom_container">
+          <input class="score" type=button value="Check Score" onClick="check()">
+          <input class="score" type=button value="Reset Score" onClick="javascript:correct=0;wrong=0;">
+        </div>
+
+    <h2 class="link">  <a href="index.html">Home</a></h2>
+      </div>
+    </form>
+  </center>
+
+  </section>
+
+</body>
+
+</html>
